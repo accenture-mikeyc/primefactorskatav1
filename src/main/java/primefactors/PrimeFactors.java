@@ -16,8 +16,9 @@ public class PrimeFactors {
         while(it % div == 0) {
             arr.add(div);
             it /= div;
+            while(it % div != 0 && it != 1)
+                div ++;
         }
-
         if(it != 1)
             arr.add(it);
         return arr;

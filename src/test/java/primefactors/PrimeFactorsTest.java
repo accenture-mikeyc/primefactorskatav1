@@ -59,5 +59,16 @@ public class PrimeFactorsTest {
         arr.add(3);
         assertEquals(arr, number.findPrimeFactors(9));
     }
-
+    @Test public void testIfGivenSeventyFiveReturnArrayListThreeFiveFive() {
+        arr.add(3);
+        arr.add(5);
+        arr.add((5));
+        assertEquals(arr, number.findPrimeFactors(75));
+    }
+    @Test public void testIfGivenThreeSixThreeReturnsArrayListThreeElevenEleven() {
+        arr.add(3);
+        arr.add(11);
+        arr.add(11);
+        assertEquals(arr, number.findPrimeFactors(363));
+    }
 }
