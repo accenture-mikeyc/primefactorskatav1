@@ -71,4 +71,13 @@ public class PrimeFactorsTest {
         arr.add(11);
         assertEquals(arr, number.findPrimeFactors(363));
     }
+    @Test public void testIfGivenSixteenReturnsArrayListTwoTwoTwoTwo() {
+        arr.add(3);
+        arr.add(3);
+        arr.add(5);
+        arr.add(5);
+        arr.add(11);
+        arr.add(13);
+        assertEquals(arr, number.findPrimeFactors(32175));
+    }
 }
