@@ -2,9 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5dc13ee2-3cc7-4a86-8039-8054282176e8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/primefactors/PrimeFactors.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/primefactors/PrimeFactors.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/primefactors/PrimeFactorsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/primefactors/PrimeFactorsTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/classes/" />
@@ -43,10 +40,11 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/primefactors/PrimeFactorsTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+            <state relative-caret-position="285">
+              <caret line="17" column="19" lean-forward="true" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#559#568#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -66,8 +64,8 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/main/java/primefactors/Library.java" />
-        <option value="$PROJECT_DIR$/src/test/java/primefactors/PrimeFactorsTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/primefactors/PrimeFactors.java" />
+        <option value="$PROJECT_DIR$/src/test/java/primefactors/PrimeFactorsTest.java" />
       </list>
     </option>
   </component>
@@ -201,7 +199,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1560871680551</updated>
-      <workItem from="1560871683391" duration="1296000" />
+      <workItem from="1560871683391" duration="1514000" />
     </task>
     <servers />
   </component>
@@ -212,9 +210,12 @@
     <history-entry file="PrimeFactorsTest - 2019.06.18 at 11h 34m 31s.xml">
       <configuration name="PrimeFactorsTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="PrimeFactorsTest - 2019.06.18 at 11h 49m 44s.xml">
+      <configuration name="PrimeFactorsTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1296000" />
+    <option name="totallyTimeSpent" value="1514000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="140" y="43" width="1400" height="987" extended-state="0" />
@@ -270,10 +271,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/primefactors/PrimeFactorsTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        <state relative-caret-position="285">
+          <caret line="17" column="19" lean-forward="true" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#559#568#0" expanded="true" />
           </folding>
         </state>
       </provider>

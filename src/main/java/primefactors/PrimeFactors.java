@@ -7,7 +7,9 @@ import java.util.*;
 public class PrimeFactors {
     public ArrayList<Integer> findPrimeFactors(int input) {
         ArrayList<Integer> arr = new ArrayList<Integer>();
-        //arr.add(input);
+        if(input == 1)
+            return arr;
+        arr.add(input);
         return arr;
     }
 }

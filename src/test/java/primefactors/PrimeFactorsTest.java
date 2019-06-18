@@ -8,9 +8,14 @@ import java.util.*;
 import static org.junit.Assert.*;
 
 public class PrimeFactorsTest {
-    @Test public void testIfGivenOneReturnsOne() {
+    @Test public void testIfGivenOneReturnsAnEmptyList() {
         PrimeFactors number = new PrimeFactors();
         assertEquals(new ArrayList<Integer>(0), number.findPrimeFactors(1));
     }
-//    @Test public void testIfGiven
+    @Test public void testIfGivenTwoReturnsAnArrayListWithTwo(){
+        PrimeFactors number = new PrimeFactors();
+        ArrayList<Integer> arr = new ArrayList<Integer>();
+        arr.add(2);
+        assertEquals(arr, number.findPrimeFactors(2));
+    }
 }
