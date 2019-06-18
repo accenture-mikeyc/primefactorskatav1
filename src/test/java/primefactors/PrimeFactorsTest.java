@@ -4,11 +4,13 @@
 package primefactors;
 
 import org.junit.Test;
+import java.util.*;
 import static org.junit.Assert.*;
 
 public class PrimeFactorsTest {
     @Test public void testIfGivenOneReturnsOne() {
         PrimeFactors number = new PrimeFactors();
-        assertEquals(1, number.findPrimeFactors(1));
- }
+        assertEquals(new ArrayList<Integer>(0), number.findPrimeFactors(1));
+    }
+//    @Test public void testIfGiven
 }
