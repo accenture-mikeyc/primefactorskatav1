@@ -29,7 +29,23 @@ public class PrimeFactorsTest {
         arr.add(3);
         assertEquals(arr, number.findPrimeFactors(3));
     }
-    @Test public void testIfNumberIsPrime(){
-        assertEquals(true, number.isPrime(3));
+    @Test public void testIfGivenFourReturnArrayListWithTwoTwos(){
+        arr.add(2);
+        arr.add(2);
+        assertEquals(arr, number.findPrimeFactors(4));
     }
+    @Test public void testIfGivenFiveReturnArrayListWithFive() {
+        arr.add(5);
+        assertEquals(arr, number.findPrimeFactors(5));
+    }
+    @Test public void testIfGivenSixReturnArrayListWithTwoAndThree() {
+        arr.add(2);
+        arr.add(3);
+        assertEquals(arr, number.findPrimeFactors(6));
+    }
+    @Test public void testIfGivenSevenReturnsArrayListWithSeven() {
+        arr.add(7);
+        assertEquals(arr, number.findPrimeFactors(7));
+    }
+    
 }

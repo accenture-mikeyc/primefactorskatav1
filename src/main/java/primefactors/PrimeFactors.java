@@ -7,23 +7,16 @@ import java.util.*;
 public class PrimeFactors {
     public ArrayList<Integer> findPrimeFactors(int input) {
         ArrayList<Integer> arr = new ArrayList<Integer>();
+        int it = input;
         if(input == 1)
             return arr;
-        arr.add(input);
-        return arr;
-    }
-
-    public boolean isPrime(int input){
-        if (input == 2)
-            return true;
-
-        for(int i = input-1; i > 1; i = i-1){
-            if(input % i == 0)
-                break;
-            else
-                return true;
+        while(it % 2 == 0) {
+            arr.add(2);
+            it /= 2;
         }
 
-        return false;
+        if(it % 2 != 0 && it != 1)
+            arr.add(it);
+        return arr;
     }
 }
