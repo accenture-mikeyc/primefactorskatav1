@@ -47,5 +47,12 @@ public class PrimeFactorsTest {
         arr.add(7);
         assertEquals(arr, number.findPrimeFactors(7));
     }
-    
+    @Test public void testIfGivenEightReturnsArrayListWithTwoTwoTwo() {
+        arr.add(2);
+        arr.add(2);
+        arr.add(2);
+        assertEquals(arr, number.findPrimeFactors(8));
+        
+    }
+
 }

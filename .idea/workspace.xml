@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5dc13ee2-3cc7-4a86-8039-8054282176e8" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/primefactors/PrimeFactors.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/primefactors/PrimeFactors.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/primefactors/PrimeFactorsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/primefactors/PrimeFactorsTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/classes/" />
@@ -41,8 +40,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/primefactors/PrimeFactorsTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="497">
-              <caret line="47" column="54" selection-start-line="47" selection-start-column="54" selection-end-line="47" selection-end-column="54" />
+            <state relative-caret-position="440">
+              <caret line="53" column="54" selection-start-line="53" selection-start-column="54" selection-end-line="53" selection-end-column="54" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#328#337#0" expanded="true" />
@@ -208,9 +207,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="PrimeFactorsTest - 2019.06.18 at 14h 48m 43s.xml">
-      <configuration name="PrimeFactorsTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="PrimeFactorsTest - 2019.06.18 at 14h 52m 43s.xml">
       <configuration name="PrimeFactorsTest" configurationId="JUnit" />
     </history-entry>
@@ -238,9 +234,12 @@
     <history-entry file="PrimeFactorsTest - 2019.06.18 at 15h 19m 38s.xml">
       <configuration name="PrimeFactorsTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="PrimeFactorsTest - 2019.06.18 at 15h 21m 06s.xml">
+      <configuration name="PrimeFactorsTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5287000" />
+    <option name="totallyTimeSpent" value="5423000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="36" y="23" width="1644" height="1027" extended-state="0" />
@@ -296,8 +295,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/primefactors/PrimeFactorsTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="497">
-          <caret line="47" column="54" selection-start-line="47" selection-start-column="54" selection-end-line="47" selection-end-column="54" />
+        <state relative-caret-position="440">
+          <caret line="53" column="54" selection-start-line="53" selection-start-column="54" selection-end-line="53" selection-end-column="54" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#328#337#0" expanded="true" />
