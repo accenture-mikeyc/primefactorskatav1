@@ -54,5 +54,10 @@ public class PrimeFactorsTest {
         assertEquals(arr, number.findPrimeFactors(8));
         
     }
+    @Test public void testIfGivenNineReturnArrayWithThreeThree() {
+        arr.add(3);
+        arr.add(3);
+        assertEquals(arr, number.findPrimeFactors(9));
+    }
 
 }
