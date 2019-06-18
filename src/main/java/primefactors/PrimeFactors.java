@@ -22,5 +22,5 @@ public class PrimeFactors {
         if(it != 1)
             arr.add(it);
         return arr;
-    }
+    }ß
 }
