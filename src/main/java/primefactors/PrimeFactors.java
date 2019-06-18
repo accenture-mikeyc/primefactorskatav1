@@ -12,4 +12,18 @@ public class PrimeFactors {
         arr.add(input);
         return arr;
     }
+
+    public boolean isPrime(int input){
+        if (input == 2)
+            return true;
+
+        for(int i = input-1; i > 1; i = i-1){
+            if(input % i == 0)
+                break;
+            else
+                return true;
+        }
+
+        return false;
+    }
 }

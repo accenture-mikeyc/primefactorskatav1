@@ -25,4 +25,11 @@ public class PrimeFactorsTest {
         arr.add(2);
         assertEquals(arr, number.findPrimeFactors(2));
     }
+    @Test public void testIfGivenThreeReturnsArrayListWithThree(){
+        arr.add(3);
+        assertEquals(arr, number.findPrimeFactors(3));
+    }
+    @Test public void testIfNumberIsPrime(){
+        assertEquals(true, number.isPrime(3));
+    }
 }
